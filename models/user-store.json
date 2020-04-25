@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "Secret1",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Barcoe",
+      "email": "michael@barcoe.com",
+      "password": "Barcoe1",
+      "id": "cc2ad05a-6236-4294-9f79-3dbbe5d224cf"
+    },
+    {
+      "firstName": "Sophie",
+      "lastName": "Barcoe",
+      "email": "sophie@barcoe.com",
+      "password": "Barcoe12",
+      "id": "fbc20195-c9b1-40b3-b03d-03fa6610b3a3"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mlyng@wit.ie",
+      "password": "Trustno1",
+      "id": "d39abcd3-237d-4f2e-bba9-f2e95b1f005f"
+    },
+    {
+      "firstName": "bob",
+      "lastName": "barcoe",
+      "email": "bob@barcoe.com",
+      "password": "Bob1",
+      "id": "53fd77cf-824c-4154-a4e2-9f30e88ec11f"
+    },
+    {
+      "firstName": "Rosanne",
+      "lastName": "Birney",
+      "email": "rosanne@gmail.com",
+      "password": "Secret1",
+      "id": "1d500c39-05df-4c7b-a8db-4f4db62b7f51"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mlyng@wit.ie",
+      "password": "Trustno1",
+      "id": "0f182240-c641-48c0-8997-9e3bfffcbc41"
+    }
+  ]
+}

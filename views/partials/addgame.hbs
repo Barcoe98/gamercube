@@ -1,0 +1,26 @@
+    <section class="ui raised inverted segment seriesSegment">
+    <div class="ui small dividing header"> Game Upload </div>
+    <section class="ui inverted raised form segment">
+      <form  action="/series/{{series.id}}/addgame" method="POST" enctype="multipart/form-data">
+        <div class="four fields">
+          <div class="field">
+            <label>Title</label>
+            <input placeholder="Title" type="text" name="title">
+          </div>
+           <div class="field">
+            <label>Publisher</label>
+            <input placeholder="Publisher" type="text" name="publisher">
+          </div>
+           <div class="field">
+            <label>Release Date</label>
+            <input placeholder="Release Date" type="text" name="release">
+          </div>
+           <div class="field">
+            <label>Rating</label>
+            <input placeholder="Rating" type="text" name="rating">
+          </div>
+        </div>
+        <button class="ui mini blue submit button"> Upload </button>
+      </form>
+    </section>
+  </section>

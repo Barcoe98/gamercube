@@ -1,0 +1,41 @@
+body {
+  background-image: url('https://cdn.glitch.com/84a8e2a2-7472-4fa9-97e2-74b53b4578c8%2Fx1bg-logo-pattern-gray.jpg?1551647712653') !important;
+  background-size: cover;
+  color: grey;
+}
+
+h1, h2{
+  color: grey;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 16px;
+  color: white;
+}
+
+section {
+  margin-top:20px;
+  margin-bottom: 40px;
+}
+
+.seriesBorder{
+   border-style: groove;
+   border-color: grey;
+   border-width: 2px;
+   margin: 20px;
+}
+
+.mapouter{margin-left:22%; text-align:right;height:400px;width:600px;}
+    .gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}
+    
+
+.seriesLogo{
+  float: right;
+}
+
+.logostart{
+  
+  padding: 2px;
+}

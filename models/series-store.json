@@ -1,0 +1,141 @@
+{
+  "seriesCollection": [
+    {
+      "id": "160e04be-7c52-482f-a721-5d0ab2a5db23",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "My Retro Games",
+      "genre": "Action",
+      "games": [
+        {
+          "id": "de523184-bb2d-48c2-a6f4-d1d2c8a5f456",
+          "title": "FiFa 02",
+          "publisher": "EA",
+          "release": "2001",
+          "rating": "8"
+        },
+        {
+          "id": "d78facc8-0fe2-4b8d-95fb-2a1a2d2b14a4",
+          "title": "Call of duty: World at war",
+          "publisher": "Activision",
+          "release": "2008",
+          "rating": "10"
+        }
+      ]
+    },
+    {
+      "id": "8cff75f1-a35b-4fa3-82ee-78a23742b2df",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "My Favourite Games",
+      "genre": "Action, Adventure",
+      "games": [
+        {
+          "id": "de416f3f-a066-4c5e-8f31-6c53de7ba58b",
+          "title": "Fifa 18",
+          "publisher": "EA",
+          "release": "2017",
+          "rating": "7"
+        },
+        {
+          "id": "73484ca1-77ce-40ce-b5b9-f77a9728f7c9",
+          "title": "Fall out 4",
+          "publisher": "Bethesda",
+          "release": "2016",
+          "rating": "8.5"
+        },
+        {
+          "id": "e1563667-9f6d-4d3d-b975-6b3bc4434f0c",
+          "title": "Skyrim",
+          "publisher": "Bethesda",
+          "release": "2012",
+          "rating": "10"
+        },
+        {
+          "id": "aa98146e-e71b-465a-b312-4c45692e6b6c",
+          "title": "Shadow Of Morodor",
+          "publisher": "Ea",
+          "release": "2015",
+          "rating": "9"
+        }
+      ]
+    },
+    {
+      "id": "a048bc76-7d04-4ec8-b011-05dcf0777d1f",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Call Of Duty Favourites",
+      "genre": "Shooter, First Person",
+      "games": [
+        {
+          "id": "ece0cb86-c9c6-4ca9-b065-b6212b75dc8d",
+          "title": "Black Ops 1",
+          "publisher": "Activision",
+          "release": "2013",
+          "rating": "9"
+        },
+        {
+          "id": "fa526a6d-188f-42a7-acd0-638e9182e38c",
+          "title": "Black Ops 2",
+          "publisher": "Activision",
+          "release": "2015",
+          "rating": "10"
+        },
+        {
+          "id": "ec9dfb71-a696-4a76-b24f-93e3eaa6a188",
+          "title": "Ghosts",
+          "publisher": "Activision",
+          "release": "2012",
+          "rating": "6"
+        },
+        {
+          "id": "6ce860a0-3a99-4c6b-8721-83cec546f62c",
+          "title": "World war 2",
+          "publisher": "Activision",
+          "release": "2018",
+          "rating": "8.5"
+        }
+      ]
+    },
+    {
+      "id": "cc1bc876-a5eb-46c0-80f8-ee2412689f2a",
+      "title": "My Favourite Games",
+      "genre": "Shooter",
+      "games": [
+        {
+          "id": "d08ff4a6-2fbd-4e30-ac4b-10c9d416ff4b",
+          "title": "RainBow Six Seige",
+          "publisher": "tom clancy",
+          "release": "2019",
+          "rating": "3"
+        },
+        {
+          "id": "daa103a2-8462-4dae-a54c-1f05608fa0f6",
+          "title": "Skyrim",
+          "publisher": "Bethesda",
+          "release": "2012",
+          "rating": "10"
+        }
+      ]
+    },
+    {
+      "id": "d8135acf-1053-41b4-97ba-10cb35969976",
+      "userid": "d39abcd3-237d-4f2e-bba9-f2e95b1f005f",
+      "title": "FIFA",
+      "genre": "Sport",
+      "games": [
+        {
+          "id": "5c355701-8a86-41be-b7b6-68420ae650bf",
+          "title": "FIFA 18",
+          "publisher": "EA Sport",
+          "release": "2019",
+          "rating": "3"
+        }
+      ]
+    },
+    {
+      "id": "15585ffc-16b6-4c60-ab4c-0aaba691ee12",
+      "userid": "53fd77cf-824c-4154-a4e2-9f30e88ec11f",
+      "title": "Favourite Games",
+      "genre": "action",
+      "games": []
+    }
+  ]
+}

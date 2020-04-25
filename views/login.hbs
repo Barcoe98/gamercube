@@ -1,0 +1,13 @@
+{{> welcomemenu id='login' }}
+
+<form class="ui stacked inverted segment form" action="/authenticate" method="POST">
+  <h1 class="ui header">Log-in</h1>
+  <div class="field">
+    <label>Email</label> <input type= "email" placeholder="Email" name="email" autofocus required>
+  </div>
+  <div class="field">
+    <label>Password</label> <input type="password"  name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" 
+                                   title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required >
+  </div>
+  <button class="ui blue submit button .delgame"> Login </button>
+</form>

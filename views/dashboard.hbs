@@ -1,0 +1,30 @@
+{{> menu id="dashboard"}}
+
+<section class="ui inverted segment seriesSegment">
+
+<div class ="seriesBorder">
+   <h1>My Statistics</h1>
+     <div class="ui inverted two statistics">
+        <div class="statistic">
+    <div class="value">
+      {{totalUserSeries}}
+    </div>
+    <div class="label">
+      Series
+    </div>
+  </div>
+      <div class="statistic">
+    <div class="value">
+      {{totalUserGames}}
+    </div>
+    <div class="label">
+      Games
+    </div>
+  </div>
+</div>
+  </div>
+  
+  {{> listseries}}
+  {{> addseries}}
+  
+</section>

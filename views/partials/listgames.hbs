@@ -1,0 +1,46 @@
+
+
+ <section class="ui inverted raised segment">
+    <div class="ui cards">
+      {{#each series.games}}
+      <div class="ui card">
+  <div class="ui small center aligned image">
+    <img src="{{img}}">
+  </div>
+  <div class="content">
+        <form class = "ui form" action="/series/{{../series.id}}/updategame/{{id}}" method="POST">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui input">
+         <input placeholder="Title" type="text" size = "30" name="title" autofocus required value = "{{title}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="Publisher" type="text" size = "30" name="publisher" required value = "{{publisher}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="Release Year" type="text" size = "30" name="release" required value = "{{release}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="Rating" type="text" size = "30" name="rating" required value = "{{rating}}">
+        </span>
+      </td>
+      <td>
+        <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
+      </td>
+      <td>
+         <a href="/series/{{../series.id}}/deleteGame/{{id}}" class=" ui inverted icon button" onclick="confirm('Do you Really Want to Delete This Game?')">
+           <i class="red icon trash"></i></a>
+        </td>
+    </tr>
+    </form> 
+  </div>
+</div>
+      {{/each}}
+    </div>
+</section>

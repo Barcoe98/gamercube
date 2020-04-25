@@ -1,0 +1,32 @@
+{{> welcomemenu id="signup"}}
+
+<form class="ui stacked inverted segment form" action="/register" method="POST">
+  <h1 class="ui header">Sign up</h1>
+  <div class="two fields">
+    <div class="field">
+      <label>First Name</label>
+      <input placeholder="First Name" type="text"  name="firstName" autofocus required>
+    </div>
+    <div class="field ">
+      <label>Last Name</label>
+      <input placeholder="Last Name" type="text"  name="lastName" required>
+    </div>
+  </div>
+  <div class="field">
+    <label>Email</label>
+    <input placeholder="Email" type="text" name="email" required>
+  </div>
+  <div class="field">
+    <label>Password</label>
+    <input type="password" name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" 
+           title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required>
+  </div>
+    <div class="field">
+    <div class="ui checkbox">
+      <input type="checkbox" tabindex="0" class="hidden">
+      <label>I agree to the Terms and Conditions</label>
+    </div>
+  </div>
+      
+  <button class="ui blue submit button">Submit</button>
+</form>

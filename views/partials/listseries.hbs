@@ -1,0 +1,21 @@
+ 
+ {{#each series}}
+<div class ="seriesBorder">
+<section class=" ui inverted segment">  
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+  <img class ="seriesLogo" src="{{logo}}" width="100" height="120">
+    <p class="content"> Genre: {{genre}} </p>
+   
+    <a href="/series/{{id}}" class="ui inverted icon button">
+      <i class="icon folder open"></i>
+    </a>
+   
+    <a href="/dashboard/deleteseries/{{id}}" class="ui inverted icon button" onclick="confirm('Do you Really Want to Delete This Series?')">
+      <i class="icon trash"></i>
+  </a>
+   
+  </section>
+  </div>
+{{/each}}
